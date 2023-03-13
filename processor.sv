@@ -12,7 +12,7 @@ module Processor(
 parameter INPUTFILE = "testcases.txt";
 
 typedef struct packed {
-  int ClockTicks;                       //
+  int ClockTicks;                       //to keep track of number of clock ticks
   logic Operation;                      //
   logic [ADDRWIDTH-1:0] Address;        //
   logic [DATAWIDTH-1:0] Data;           //
