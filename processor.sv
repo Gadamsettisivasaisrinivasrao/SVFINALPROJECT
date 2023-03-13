@@ -15,7 +15,7 @@ typedef struct packed {
   int ClockTicks;                       //
   logic Operation;                      //
   logic [ADDRWIDTH-1:0] Address;        //
-  logic [DATAWIDTH-1:0] Data;           //
+  logic [DATAWIDTH-1:0] Data;           // Data to be sourced from File
 } TestCase;
 
 TestCase Associative_Memory[$];         //Declaration of Associative memory 
